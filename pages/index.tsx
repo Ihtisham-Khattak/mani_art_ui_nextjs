@@ -15,6 +15,7 @@ import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
 import Footer from './components/Footer/index';
+import BluePottery from './components/Manage/BluePottery';
 
 
 
@@ -39,6 +40,7 @@ const Home = () => {
         <Ourteam />
         {/* <Featured /> */}
         <Manage />
+        <BluePottery />
         <FAQ />
         <Testimonials />
         <Articles />

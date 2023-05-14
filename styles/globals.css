@@ -189,11 +189,10 @@ html {
 }
 
 .faq-bg {
-  /* width: 50%; */
-  background-image: url('/images/faq/truck_image.jpg');
+  width: 100%;
+  background-image: url('/images/faq/swirls.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: fixed; */
 
 }
 

@@ -34,13 +34,13 @@ const Home = () => {
         <Banner />
         <Aboutus />
         <Dedicated />
-        <Digital />
+        {/* <Digital /> */}
         <Beliefs />
         <Wework />
         <Ourteam />
         <Featured />
         <Manage />
-        <BluePottery />
+        {/* <BluePottery /> */}
         <FAQ />
         <Testimonials />
         <Articles />

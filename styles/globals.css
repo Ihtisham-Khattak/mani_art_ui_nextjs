@@ -125,7 +125,7 @@ html {
 }
 
 .bg-build {
-  background-image: url('/images/beliefs/bg.svg');
+  background-image: url('/images/featured/feat4.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: unset;
@@ -151,10 +151,10 @@ html {
 }
 
 .bg-beliefs {
-  background-image: url('/images/beliefs/swirls.svg');
+  background-image: url('/images/featured/feat1.webp');
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: contain;
+  /* background-position: left  top right; */
+  background-size: cover;
 }
 
 .position-linkedin {
@@ -329,11 +329,11 @@ html {
 }
 
 .slick-next {
-  right: -70px!important;
+  right: -50px!important;
 }
 
 .slick-prev {
-  left: -60px!important;
+  left: -50px!important;
 }
 
 .slick-prev:before,

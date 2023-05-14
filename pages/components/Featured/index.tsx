@@ -11,27 +11,27 @@ interface DataType {
 
 const postData: DataType[] = [
   {
-    heading: "Brand design for a computer brand.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat3.webp",
   },
   {
-    heading: "Mobile app 3d wallpaper.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat5.webp",
   },
   {
-    heading: "Brand design for a computer brand.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat3.webp",
   },
   {
-    heading: "Mobile app 3d wallpaper.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat5.webp",
   },
   {
-    heading: "Mobile app 3d wallpaper.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat3.webp",
   },
   {
-    heading: "Mobile app 3d wallpaper.",
+    heading: "Truck Art design.",
     imgSrc: "/images/featured/feat5.webp",
   },
 ];
@@ -51,7 +51,7 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
         background: "rgba(255, 255, 255, 0.3)",
         padding: "30px",
         borderRadius: "20px",
-        gap:"10px"
+        gap: "10px",
       }}
       onClick={onClick}
     />
@@ -84,7 +84,7 @@ export default class MultipleItems extends Component {
       dots: false,
       infinite: true,
       slidesToShow: 2,
-    //   centerMode: true,
+      centerMode: true,
       slidesToScroll: 2,
       arrows: true,
       autoplay: false,
@@ -135,13 +135,13 @@ export default class MultipleItems extends Component {
           <Slider {...settings}>
             {postData.map((items, i) => (
               <div key={i}>
-                <div className="bg-transparent m-3 pb-12 my-10 rounded-3xl grid grid-cols-3">
+                <div className="bg-transparent m-3 pb-12 my-10 rounded-3xl ">
                   <Image
                     src={items.imgSrc}
                     alt="gaby"
                     width={300}
                     height={50}
-                    className="rounded-2xl"
+                    className="rounded-2xl w-[70%] h-[70%]"
                   />
                   <div className="w-345">
                     <h4 className="sm:text-5xl font-bold sm:pt-6 text-center sm:text-start mt-10 text-white">

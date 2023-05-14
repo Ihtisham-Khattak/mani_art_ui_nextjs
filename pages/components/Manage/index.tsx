@@ -133,7 +133,7 @@ const Manage = () => {
 
         {/* Right Sign and Categories Sections */}
         <div className="md:flex md:justify-around mt-20">
-          <div className="flex gap-5 justify-center md:justify-start">
+          <div className="flex gap-5 justify-center md:justify-start :flex-wrap">
             {gallery_items?.map((items, index) => (
               <>
                 <Image
@@ -143,7 +143,7 @@ const Manage = () => {
                   height={14}
                 />
                 <Link href="/BluePottery">
-                  <button className="text-lg font-semibold cursor-pointer">
+                  <button className="text-lg font-semibold cursor-pointer flex lg:flex-wrap">
                     {items.title}
                   </button>
                 </Link>
@@ -180,7 +180,7 @@ const Manage = () => {
             <h3 className="text-sm font-medium ml-5">Billed Monthly</h3>
           </div>
         </div>
-
+        {/* Cards data */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14">
           {filteredData.map((items, i) => (
             <div className="manageTabs text-center p-10" key={i}>

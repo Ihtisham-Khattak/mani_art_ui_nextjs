@@ -142,7 +142,7 @@ const Manage = () => {
                   width={21}
                   height={14}
                 />
-                <Link href="/Manage/BluePottery">
+                <Link href="/BluePottery">
                   <button className="text-lg font-semibold cursor-pointer">
                     {items.title}
                   </button>

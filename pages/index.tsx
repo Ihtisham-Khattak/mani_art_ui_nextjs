@@ -15,7 +15,7 @@ import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
 import Footer from './components/Footer/index';
-import BluePottery from './components/Manage/BluePottery';
+import BluePottery from './components/BluePottery/BluePottery';
 
 
 
@@ -38,7 +38,7 @@ const Home = () => {
         <Beliefs />
         <Wework />
         <Ourteam />
-        {/* <Featured /> */}
+        <Featured />
         <Manage />
         <BluePottery />
         <FAQ />

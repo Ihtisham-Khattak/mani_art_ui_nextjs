@@ -61,7 +61,7 @@ const FAQ = () => {
         {/* Questions using Map functions*/}
         <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white py-8 px-6">
           {faqsData?.map((item, index) => (
-            <Disclosure as="div" className="mt-2">
+            <Disclosure as="div" className="mt-2" key={index}>
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex w-full justify-between rounded-lg px-4 py-2 text-left text-2xl font-medium">

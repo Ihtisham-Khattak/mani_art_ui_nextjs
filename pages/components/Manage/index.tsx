@@ -133,17 +133,17 @@ const Manage = () => {
 
         {/* Right Sign and Categories Sections */}
         <div className="md:flex md:justify-around mt-20">
-          <div className="flex gap-5 justify-center md:justify-start :flex-wrap">
+          <div className="flex gap-5 flex-col sm:flex-row items-center justify-center">
             {gallery_items?.map((items, index) => (
               <>
-                <Image
+                {/* <Image
                   src={items.image}
                   alt="right-icon"
                   width={21}
                   height={14}
-                />
-                <Link href="/BluePottery">
-                  <button className="text-lg font-semibold cursor-pointer flex lg:flex-wrap">
+                /> */}
+                <Link href="/BluePottery/index" target="_blank">
+                  <button className="text-lg font-semibold cursor-pointer bg-transparent hover:border-blue text-blue-700 hover:text-blue py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                     {items.title}
                   </button>
                 </Link>
@@ -191,9 +191,9 @@ const Manage = () => {
               <p className="text-sm font-medium text-bggrey mb-6">
                 {items.user}
               </p>
-              <button className="text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6">
+              {/* <button className="text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6">
                 {items.button}
-              </button>
+              </button> */}
               <hr style={{ color: "darkgrey", width: "50%", margin: "auto" }} />
               <h3 className="text-sm font-medium text-darkgrey mb-3 mt-6">
                 {items.profiles}

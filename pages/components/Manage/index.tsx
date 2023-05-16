@@ -80,32 +80,32 @@ const names = [
 
 const gallery_items = [
   {
-    // href: "/BluePottery/BluePottery",
+    link: "/components/Manage/Bluepottery",
     image: "/images/manage/right.svg",
     title: "Blue Pottery Series",
   },
   {
-    // href: "#blue-pottery",
+    link: "",
     image: "/images/manage/right.svg",
     title: "Truck Art Series",
   },
   {
-    // href: "#blue-pottery",
+    link: "",
     image: "/images/manage/right.svg",
     title: "Instruments Series",
   },
   {
-    // href: "#blue-pottery",
+    link: "",
     image: "/images/manage/right.svg",
     title: "Other Works",
   },
   {
-    // href: "#blue-pottery",
+    link: "",
     image: "/images/manage/right.svg",
     title: "Prints",
   },
   {
-    // href: "#blue-pottery",
+    link: "",
     image: "/images/manage/right.svg",
     title: "Ballpoint Drawings",
   },
@@ -136,13 +136,8 @@ const Manage = () => {
           <div className="flex gap-5 flex-col sm:flex-row items-center justify-center">
             {gallery_items?.map((items, index) => (
               <>
-                {/* <Image
-                  src={items.image}
-                  alt="right-icon"
-                  width={21}
-                  height={14}
-                /> */}
-                <Link href="/BluePottery/index" target="_blank">
+               
+                <Link href="/components/Manage/Bluepottery" target="_blank">
                   <button className="text-lg font-semibold cursor-pointer bg-transparent hover:border-blue text-blue-700 hover:text-blue py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                     {items.title}
                   </button>

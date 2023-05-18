@@ -15,7 +15,7 @@ const Aboutdata: datatype[] = [
     imgSrc: "/images/aboutus/imgOne.svg",
     paragraph:
       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
-    link: "Learn more",
+    link: "/components/Aboutus/Potrait",
   },
   {
     heading: "Calligraphy.",
@@ -24,13 +24,13 @@ const Aboutdata: datatype[] = [
       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
     link: "Learn more",
   },
-//   {
-//     heading: "Our Works.",
-//     imgSrc: "/images/aboutus/imgThree.svg",
-//     paragraph:
-//       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
-//     link: "Learn more",
-//   },
+  {
+    heading: "Our Works.",
+    imgSrc: "/images/aboutus/imgThree.svg",
+    paragraph:
+      "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
+    link: "Learn more",
+  },
 ];
 
 const Aboutus = () => {
@@ -51,15 +51,15 @@ const Aboutus = () => {
           Know more about us.
         </h4>
         {/* Adding more cards change the lg:grid-col-2 to 3,4,5 */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 my-16 gap-x-16 lg:gap-x-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32">
           {Aboutdata.map((item, i) => (
             <div
               key={i}
               className="hover:bg-navyblue bg-navyblue rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl"
             >
-              <h4 className="text-3xl font-semibold  text-white mb-5">
+              <h2 className="text-3xl font-semibold  text-white mb-5">
                 {item.heading}
-              </h4>
+              </h2>
               <Image
                 src={item.imgSrc}
                 alt={item.imgSrc}
@@ -71,10 +71,11 @@ const Aboutus = () => {
                 {item.paragraph}
               </h4>
               <Link
-                href="#"
+                href={item.link}
+                target="_blank"
                 className="text-lg font-semibold text-white hover-underline"
               >
-                {item.link}
+                Learn More
                 <ChevronRightIcon width={20} height={20} />
               </Link>
             </div>

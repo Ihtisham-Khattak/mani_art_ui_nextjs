@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 
-const Bluepottery: React.FC = () => {
+const Calligraphy: React.FC = () => {
   const imageData = [
     {
       id: 1,
-      title: "Acrylic on canvas",
-      description: "SOLD 10×10 inches",
-      imageUrl: "/images/gallery/Gallery1.jpeg",
+      title: "Loh-e-Quran",
+      description: "Acrylic on canvas, SOLD, 12 × 24 inches",
+      imageUrl: "/images/gallery/Gallery23.jpeg",
     },
     {
       id: 2,
@@ -47,21 +47,9 @@ const Bluepottery: React.FC = () => {
     },
     {
       id: 8,
-      title: "CLASSIC ARABIC CALLIGRAPHY",
-      description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-      imageUrl: "/images/gallery/Gallery8.jpeg",
-    },
-    {
-      id: 9,
-      title: "CLASSIC ARABIC CALLIGRAPHY",
-      description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-      imageUrl: "/images/gallery/Gallery9.jpeg",
-    },
-    {
-      id: 10,
-      title: "CLASSIC ARABIC CALLIGRAPHY",
-      description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-      imageUrl: "/images/gallery/Gallery10.jpeg",
+      title: "Surah  Al-Nas ",
+      description: "Acrylic on canvas, Price : 50000, 24×24 inches",
+      imageUrl: "/images/gallery/Gallery22.jpeg",
     },
   ];
 
@@ -81,4 +69,4 @@ const Bluepottery: React.FC = () => {
     </div>
   );
 };
-export default Bluepottery;
+export default Calligraphy;

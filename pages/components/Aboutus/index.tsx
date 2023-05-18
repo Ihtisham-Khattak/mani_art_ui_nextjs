@@ -22,14 +22,14 @@ const Aboutdata: datatype[] = [
     imgSrc: "/images/aboutus/imgTwo.svg",
     paragraph:
       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
-    link: "Learn more",
+    link: "/components/Aboutus/Calligraphy",
   },
   {
     heading: "Our Works.",
     imgSrc: "/images/aboutus/imgThree.svg",
     paragraph:
       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
-    link: "Learn more",
+    link: "/components/Aboutus/OtherWork",
   },
 ];
 

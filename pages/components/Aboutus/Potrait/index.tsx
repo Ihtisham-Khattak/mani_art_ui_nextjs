@@ -51,48 +51,7 @@ const Portrait: React.FC = () => {
       description: "Oil on canvas, Price: 25000, 10×10 inches",
       imageUrl: "/images/gallery/Gallery8.jpeg",
     },
-    // {
-    //   id: 9,
-    //   title: "DUROOD SHARIF",
-    //   description: "Acrylic on canvas, SOLD, 18×24 inches",
-    //   imageUrl: "/images/gallery/Gallery6.jpeg",
-    // },
-    // {
-    //   id: 10,
-    //   title: "Tasmia",
-    //   description: "Acrylic on canvas, Price : 8000, 20×20 inches",
-    //   imageUrl: "/images/gallery/Gallery7.jpeg",
-    // },
-    // {
-    //   id: 11,
-    //   title: "CLASSIC ARABIC CALLIGRAPHY",
-    //   description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-    //   imageUrl: "/images/gallery/Gallery8.jpeg",
-    // },
-    // {
-    //   id: 12,
-    //   title: "CLASSIC ARABIC CALLIGRAPHY",
-    //   description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-    //   imageUrl: "/images/gallery/Gallery9.jpeg",
-    // },
-    // {
-    //   id: 13,
-    //   title: "PARDA",
-    //   description: "Oil on canvas, PRICE: 15000, 8×8 inches",
-    //   imageUrl: "/images/gallery/Gallery9.jpeg",
-    // },
-    // {
-    //   id: 14,
-    //   title: "پښتنہ",
-    //   description: "Oil on canvas, Price: 25000, 10×10 inches",
-    //   imageUrl: "/images/gallery/Gallery10.jpeg",
-    // },
-    // {
-    //   id: 15,
-    //   title: "CLASSIC ARABIC CALLIGRAPHY",
-    //   description: "Acrylic on canvas, Price : 20000, 12×18 inches",
-    //   imageUrl: "/images/gallery/Gallery10.jpeg",
-    // },
+  
   ];
 
   return (

@@ -15,6 +15,7 @@ import Articles from "./components/Articles/index";
 import Joinus from "./components/Joinus/index";
 import Insta from "./components/Insta/index";
 import Footer from "./components/Footer/index";
+import WhatsAppWidget from "./components/WhatsAppWidget";
 // import BluePottery from "./components/BluePottery";
 // import Portrait from "./components/Aboutus/Potrait";
 
@@ -42,8 +43,9 @@ const Home = () => {
         {/* <BluePottery /> */}
         <FAQ />
         <Testimonials />
+        <WhatsAppWidget />
         {/* <Articles /> */}
-        {/* <Joinus /> */}
+        {/* <Joinus /> */}  
         {/* <Insta /> */}
         <Footer />
       </main>

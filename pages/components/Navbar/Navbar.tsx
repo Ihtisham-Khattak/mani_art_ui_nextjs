@@ -63,7 +63,6 @@ const Navbar = () => {
                                 </div>
 
                             </div>
-                            {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform />
                         </div>
 
@@ -72,7 +71,7 @@ const Navbar = () => {
 
                         {/* DRAWER ICON */}
 
-                        <div className='block lg:hidden'>
+                        <div className='flex items-cemter justify-end md:hidden'>
                             <Bars3Icon className="block h-6 w-6" aria-hidden="true" onClick={() => setIsOpen(true)} />
                         </div>
 

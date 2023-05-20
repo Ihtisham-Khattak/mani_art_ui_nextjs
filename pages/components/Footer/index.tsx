@@ -1,36 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// MIDDLE LINKS DATA
-interface ProductType {
-  id: number;
-  section: string;
-  link: string[];
-}
-
-const products: ProductType[] = [
-  {
-    id: 1,
-    section: "Menu",
-    link: ["Home", "Popular", "About", "Contact"],
-  },
-  {
-    id: 2,
-    section: "Category",
-    link: ["Design", "Mockup", "View all", "Log In"],
-  },
-  {
-    id: 3,
-    section: "Pages",
-    link: ["404", "Instructions", "License"],
-  },
-  {
-    id: 4,
-    section: "Others",
-    link: ["Styleguide", "Changelog"],
-  },
-];
-
 const footer = () => {
   return (
     <div className="bg-black -mt-40" id="first-section">
@@ -38,25 +8,16 @@ const footer = () => {
         <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
           {/* COLUMN-1 Social Icons*/}
 
-          <div className="col-span-4">
+          <div className="col-span-6">
             <h3 className="text-white text-4xl font-semibold leading-9 mb-4 lg:mb-20">
               Mani Art Studio
             </h3>
-            <div className="flex gap-4">
-              {/* <div className="footer-icons">
-                <Link href="https://facebook.com">
-                  <Image
-                    src={"/images/footer/vec.svg"}
-                    alt="facebook"
-                    width={15}
-                    height={20}
-                  />
-                </Link>
-              </div> */}
-              <div className="footer-icons">
+            {/* Social Media */}
+            <div className="flex gap-10">
+              <div className="footer-icons ">
                 <Link href="https://twitter.com/luqmanasghar0?t=-7V2sEpOR-o-dM5_YTzTPQ&s=09">
                   <Image
-                    src={"/images/footer/twitter.svg"}
+                    src={"/images/footer/twitter-2170.svg"}
                     alt="twitter"
                     width={20}
                     height={20}
@@ -66,7 +27,17 @@ const footer = () => {
               <div className="footer-icons">
                 <Link href="https://www.instagram.com/art.by.manii/?igshid=OTk0YzhjMDVlZA%3D%3D">
                   <Image
-                    src={"/images/footer/instagram.svg"}
+                    src={"/images/footer/instagram-logo-3289.svg"}
+                    alt="instagram"
+                    width={20}
+                    height={20}
+                  />
+                </Link>
+              </div>
+              <div className="footer-icons">
+                <Link href="https://web.whatsapp.com/">
+                  <Image
+                    src={"/images/footer/whatsapp-121.svg"}
                     alt="instagram"
                     width={20}
                     height={20}
@@ -77,31 +48,71 @@ const footer = () => {
           </div>
 
           {/* CLOUMN-2/3 */}
+          {/* Menu */}
+          <div className="group relative col-span-3">
+            <p className="text-white text-xl font-extrabold mb-9">Menu</p>
+            <ul>
+              <li className="mb-5">
+                <Link
+                  href="/"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link
+                  href="#aboutus-section"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link
+                  href="#testimonial-section"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  Testimonials
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-          {products.map((product) => (
-            <div key={product.id} className="group relative col-span-2">
-              <p className="text-white text-xl font-extrabold mb-9">
-                {product.section}
-              </p>
-              <ul>
-                {product.link.map((link: string, index: number) => (
-                  <li key={index} className="mb-5">
-                    <Link
-                      href="/"
-                      className="text-white text-lg font-normal mb-6 space-links"
-                    >
-                      {link}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {/* Category */}
+          <div className="group relative col-span-3">
+            <p className="text-white text-xl font-extrabold mb-9">Category</p>
+            <ul>
+              <li className="mb-5">
+                <Link
+                  href="/components/Aboutus/Potrait"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  Potrait
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link
+                  href="/components/Aboutus/Calligraphy"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  Calligraphy
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link
+                  href="/components/Aboutus/OtherWork"
+                  className="text-white text-lg font-normal mb-6 space-links"
+                >
+                  Other Work
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
       {/* All Rights Reserved */}
-
       <div className="mx-auto max-w-2xl lg:max-w-7xl">
         <div className="pt-5 pb-5 px-4 sm:px-6 lg:px-4 border-solid border-t border-footer">
           <div className="mt-4 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 xl:gap-x-8">

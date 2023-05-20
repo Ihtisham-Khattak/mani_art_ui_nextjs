@@ -41,16 +41,11 @@ const Contactusform = () => {
 
   return (
     <>
-      <div className=" inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
-        {/* <div className='lg:hidden'>
-                    <button type="button" className='bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded' onClick={openModal}>
-                        Contact Us
-                    </button>
-                </div> */}
+      <div className="inset-y-0 right-1 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">
         <div className="hidden lg:block">
           <button
             type="button"
-            className="justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white"
+            className="flex items-start justify-start text-xl font-semibold bg-transparent py-3 px-4 lg:px-8 navbutton rounded-full hover:bg-navyblue hover:text-white"
             onClick={openModal}
           >
             Contact Us
@@ -100,7 +95,7 @@ const Contactusform = () => {
                       <label className="text-2xl">Number</label>
                       <h2 className="text-2xl text-center">0331902343242</h2>
                     </div>
-                    {/* <form
+                    <form
                       action="#"
                       className="space-y-8"
                       onSubmit={handleSubmit}
@@ -167,14 +162,18 @@ const Contactusform = () => {
                       >
                         Send message
                       </button>
-                    </form> */}
+                    </form>
                   </div>
 
-                  {/* <div className='flex justify-end'>
-                                        <button type="button"
-                                            onClick={closeModal}
-                                            className="py-3 px-5 mt-2 text-sm font-medium w-50 text-center text-white rounded-lg bg-red hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Close</button>
-                                    </div> */}
+                  <div className="flex justify-end">
+                    <button
+                      type="button"
+                      onClick={closeModal}
+                      className="py-3 px-5 mt-2 text-sm font-medium w-50 text-center text-white rounded-lg bg-red hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                    >
+                      Close
+                    </button>
+                  </div>
                 </Dialog.Panel>
               </Transition.Child>
             </div>

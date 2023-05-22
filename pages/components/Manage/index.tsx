@@ -176,7 +176,7 @@ const Manage = () => {
           </div>
         </div>
         {/* Cards data */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 mx-5 gap-14">
           {filteredData.map((items, i) => (
             <div className="manageTabs text-center p-10" key={i}>
               <h4 className="text-2xl font-bold mb-3">{items.heading}</h4>
@@ -186,9 +186,9 @@ const Manage = () => {
               <p className="text-sm font-medium text-bggrey mb-6">
                 {items.user}
               </p>
-              {/* <button className="text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6">
+              <button className="text-sm font-bold text-blue bg-transparent hover:bg-blue hover:text-white border-2 border-blue rounded-full py-4 px-12 mb-6">
                 {items.button}
-              </button> */}
+              </button>
               <hr style={{ color: "darkgrey", width: "50%", margin: "auto" }} />
               <h3 className="text-sm font-medium text-darkgrey mb-3 mt-6">
                 {items.profiles}
@@ -207,7 +207,7 @@ const Manage = () => {
               </h3>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

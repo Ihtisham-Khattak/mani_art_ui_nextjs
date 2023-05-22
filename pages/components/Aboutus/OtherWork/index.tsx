@@ -6,25 +6,25 @@ const Calligraphy: React.FC = () => {
     {
       id: 1,
       title: "EROTOMANIA",
-      description: "Acrylic on canvas, Price: 10000, 8×8 inches",
+      description: "Acrylic on canvas, Price: 10000PKR, 8×8 inches",
       imageUrl: "/images/gallery/Gallery21.jpeg",
     },
     {
       id: 2,
       title: "FAISAL MOSQUE",
-      description: "Oil on canvas, Price: 10000, 4×4 inches",
+      description: "Oil on canvas, Price: 10000PKR, 4×4 inches",
       imageUrl: "/images/gallery/Gallery20.jpeg",
     },
     {
       id: 3,
       title: "YOUNG HEART AT OLD AGE",
-      description: "Acrylic on canvas, Price : 20000, 12×18 inches",
+      description: "Acrylic on canvas, Price : 20000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery19.jpeg",
     },
     {
       id: 4,
       title: "Illusion",
-      description: "Oil on canvas, Price: 20000, 10×10 inches",
+      description: "Oil on canvas, Price: 20000PKR, 10×10 inches",
       imageUrl: "/images/gallery/Gallery18.jpeg",
     },
     {
@@ -36,7 +36,7 @@ const Calligraphy: React.FC = () => {
     {
       id: 6,
       title: "SMOKER",
-      description: "Oil on canvas, PRICE: 25000, 12×18 inches",
+      description: "Oil on canvas, PRICE: 25000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery16.jpeg",
     },
   ];

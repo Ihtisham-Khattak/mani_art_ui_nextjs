@@ -75,7 +75,7 @@ const Aboutus = () => {
                 target="_blank"
                 className="text-lg font-semibold text-white hover-underline"
               >
-                Learn More
+                Click Here
                 <ChevronRightIcon width={20} height={20} />
               </Link>
             </div>

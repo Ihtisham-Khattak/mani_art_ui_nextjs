@@ -12,25 +12,25 @@ const Calligraphy: React.FC = () => {
     {
       id: 2,
       title: "Abstract calligraphy",
-      description: "Acrylic on canvas, 12×18 inches, Price: 15000",
+      description: "Acrylic on canvas, Price: 15000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery2.jpeg",
     },
     {
       id: 3,
       title: "CLASSIC ARABIC CALLIGRAPHY",
-      description: "Acrylic on canvas, Price : 20000, 12×18 inches",
+      description: "Acrylic on canvas, Price : 20000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery3.jpeg",
     },
     {
       id: 4,
       title: "Modern Kufic Calligraphy",
-      description: "Acrylic on canvas, Price : 30000, 12×18 inches",
+      description: "Acrylic on canvas, Price : 30000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery4.jpeg",
     },
     {
       id: 5,
       title: "Surah Ikhlas",
-      description: "Acrylic on canvas, Price : 16000, 24×24inch",
+      description: "Acrylic on canvas, Price : 16000PKR, 24×24inch",
       imageUrl: "/images/gallery/Gallery5.jpeg",
     },
     {
@@ -42,13 +42,13 @@ const Calligraphy: React.FC = () => {
     {
       id: 7,
       title: "Tasmia",
-      description: "Acrylic on canvas, Price : 8000, 20×20 inches",
+      description: "Acrylic on canvas, Price : 8000PKR, 20×20 inches",
       imageUrl: "/images/gallery/Gallery7.jpeg",
     },
     {
       id: 8,
       title: "Surah  Al-Nas ",
-      description: "Acrylic on canvas, Price : 50000, 24×24 inches",
+      description: "Acrylic on canvas, Price : 50000PKR, 24×24 inches",
       imageUrl: "/images/gallery/Gallery22.jpeg",
     },
   ];

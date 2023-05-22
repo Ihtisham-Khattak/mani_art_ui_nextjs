@@ -39,6 +39,14 @@ const Contactusform = () => {
     setIsOpen(true);
   };
 
+  const response =  fetch('/api/contact', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ name:String, email:String, message:String }), // Serialize JSON
+  });
+
   return (
     <>
       <div className="inset-y-0 right-1 flex items-center pr-2 sm:static sm:inset-auto md:ml-6 sm:pr-0">

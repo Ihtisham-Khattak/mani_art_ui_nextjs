@@ -12,7 +12,7 @@ const Portrait: React.FC = () => {
     {
       id: 2,
       title: "APassion",
-      description: "Charcol on canson sheet, Size : A4 , Price: 10000",
+      description: "Charcol on canson sheet, Price: 10000PKR, Size : A4",
       imageUrl: "/images/gallery/Gallery14.jpeg",
     },
     {
@@ -24,32 +24,38 @@ const Portrait: React.FC = () => {
     {
       id: 4,
       title: "KASHMIR",
-      description: "Acrylic on canvas, Price : 10000, 8×12 inches",
+      description: "Acrylic on canvas, Price : 10000PKR, 8×12 inches",
       imageUrl: "/images/gallery/Gallery12.jpeg",
     },
     {
       id: 5,
       title: "BEAUTY",
-      description: "Acrylic on canvas, PRICE: 7000, 8×8 inches",
+      description: "Acrylic on canvas, Price: 7000PKR, 8×8 inches",
       imageUrl: "/images/gallery/Gallery11.jpeg",
     },
     {
       id: 6,
       title: "PARDA",
-      description: "Oil on canvas, PRICE: 15000, 8×8 inches",
+      description: "Oil on canvas, Price: 15000PKR, 8×8 inches",
       imageUrl: "/images/gallery/Gallery10.jpeg",
     },
     {
       id: 7,
       title: "پښتنہ",
-      description: "Oil on canvas, Price: 25000, 10×10 inches",
+      description: "Oil on canvas, Price: 25000PKR, 10×10 inches",
       imageUrl: "/images/gallery/Gallery9.jpeg",
     },
     {
       id: 8,
       title: "پښتنہ",
-      description: "Oil on canvas, Price: 25000, 10×10 inches",
+      description: "Oil on canvas, Price: 25000PKR, 10×10 inches",
       imageUrl: "/images/gallery/Gallery8.jpeg",
+    },
+    {
+      id: 8,
+      title: "Imran khan",
+      description: "Oil on canvas, Price: 25000PKR, 10×10 inches",
+      imageUrl: "/images/gallery/imranKhan.jpeg",
     },
   
   ];

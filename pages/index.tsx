@@ -3,9 +3,9 @@ import Navbar from "./components/Navbar/index";
 import Banner from "./components/Banner/index";
 import Aboutus from "./components/Aboutus/index";
 import Dedicated from "./components/Dedicated/index";
-import Digital from "./components/Digital/index";
+// import Digital from "./components/Digital/index";
 import Beliefs from "./components/Beliefs/index";
-import Wework from "./components/Wework/index";
+// import Wework from "./components/Wework/index";
 import Ourteam from "./components/Ourteam/index";
 import Featured from "./components/Featured/index";
 import Manage from "./components/Manage/index";
@@ -35,7 +35,7 @@ const Home = () => {
         <Dedicated />
         {/* <Digital /> */}
         <Beliefs />
-        <Wework />
+        {/* <Wework /> */}
         <Ourteam />
         <Featured />
         <Manage />

@@ -4,8 +4,8 @@ const Beliefs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5">
         {/* COLUMN-1 */}
 
-        <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-52 md:pb-70 rounded-3xl">
-          {/* Div is for background 1 */}
+        {/* <div className="bg-darkblue bg-beliefs pt-12 px-10 sm:px-24 pb-52 md:pb-70 rounded-3xl">
+          {/* Div is for background 1 
           <div className="bg-[rgb(255,255,255,0.6)] w-full h-full py-10 px-10 rounded-lg rounded-tl-lg">
             <h2 className="text-lg font-normal text-blue tracking-widest mb-5 text-center sm:text-start">
               BELIEFS
@@ -18,17 +18,13 @@ const Beliefs = () => {
               Quis ipsum suspendisse ultrices gravida risus commodo viverra
               maecenas accumsan lacus vel facilisis.
             </h5>
-            {/* <div className="text-center sm:text-start">
-              <button className="text-xl py-5 px-14 mt-5 font-semibold text-white rounded-full bg-blue border border-blue hover:bg-hoblue">
-                Get Started
-              </button>
-            </div> */}
+           
           </div>
-        </div>
+        </div> */}
 
         {/* COLUMN-2 */}
 
-        <div className="bg-build pt-12 px-10 sm:px-24 pb-52 md:pb-70 rounded-3xl">
+        {/* <div className="bg-build pt-12 px-10 sm:px-24 pb-52 md:pb-70 rounded-3xl">
           <div className="bg-[rgb(255,255,255,0.6)] w-full h-full py-10 px-10 rounded-lg rounded-tl-lg">
             <h2 className="text-lg font-normal text-blue tracking-widest mb-5 text-center sm:text-start">
               BUILD
@@ -42,7 +38,7 @@ const Beliefs = () => {
               maecenas accumsan lacus vel facilisis.
             </h5>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

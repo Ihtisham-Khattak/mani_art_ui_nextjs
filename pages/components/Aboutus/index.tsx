@@ -57,9 +57,6 @@ const Aboutus = () => {
               key={i}
               className="hover:bg-navyblue bg-navyblue rounded-3xl mt-16 pt-10 pl-8 pb-10 pr-6 shadow-xl"
             >
-              <h2 className="text-3xl font-semibold  text-white mb-5">
-                {item.heading}
-              </h2>
               <Image
                 src={item.imgSrc}
                 alt={item.imgSrc}
@@ -67,9 +64,12 @@ const Aboutus = () => {
                 height={100}
                 className="mb-5"
               />
-              <h4 className="text-lg font-normal text-offwhite mb-5">
+              <h2 className="text-3xl font-semibold  text-white mb-5">
+                {item.heading}
+              </h2>
+              {/* <h4 className="text-lg font-normal text-offwhite mb-5">
                 {item.paragraph}
-              </h4>
+              </h4> */}
               <Link
                 href={item.link}
                 target="_blank"

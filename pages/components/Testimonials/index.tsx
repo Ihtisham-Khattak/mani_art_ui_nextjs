@@ -122,7 +122,7 @@ export default class MultipleItems extends Component {
                     {items.comment}
                   </h4>
                   <hr style={{ color: "lightgrey" }} />
-                  <div className="flex justify-between sm:text-base sm:hidden">
+                  <div className="flex justify-between sm:text-base">
                     <div>
                       <h3 className="text-base font-medium pt-4 pb-2">
                         {items.name}

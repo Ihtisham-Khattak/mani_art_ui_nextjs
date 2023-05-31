@@ -11,28 +11,28 @@ interface DataType {
 
 const postData: DataType[] = [
   {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat3.webp",
+    heading: "YOUNG HEART AT OLD AGE.",
+    imgSrc: "/images/featured/Gallery19.jpeg",
   },
   {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat5.webp",
+    heading: "FAISAL MOSQUE.",
+    imgSrc: "/images/featured/Gallery20.jpeg",
   },
   {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat3.webp",
+    heading: "EROTOMANIA.",
+    imgSrc: "/images/featured/Gallery21.jpeg",
   },
   {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat5.webp",
+    heading: "Surah Al-Nas.",
+    imgSrc: "/images/featured/Gallery22.jpeg",
   },
+  // {
+  //   heading: "Loh-e-Quran.",
+  //   imgSrc: "/images/featured/Gallery23.jpeg",
+  // },
   {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat3.webp",
-  },
-  {
-    heading: "Truck Art design.",
-    imgSrc: "/images/featured/feat5.webp",
+    heading: "Imran Khan.",
+    imgSrc: "/images/featured/Gallery24.jpeg",
   },
 ];
 
@@ -118,7 +118,7 @@ export default class MultipleItems extends Component {
     };
 
     return (
-      <div className="bg-bgblue py-20 marginFeature bg-featured">
+      <div className="bg-bgblue py-20 mb-[40px] marginFeature bg-featured">
         <div className="mx-auto max-w-7xl sm:py-4 lg:px-8 ">
           <div className="text-center pt-48 pb-10 md:pt-96">
             <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">
@@ -135,18 +135,18 @@ export default class MultipleItems extends Component {
           <Slider {...settings}>
             {postData.map((items, i) => (
               <div key={i}>
-                <div className="bg-transparent m-3 pb-12 my-10 rounded-3xl ">
+                <div className="bg-transparent flex flex-col text-center m-3 pb-12 my-10 rounded-3xl ">
                   <Image
                     src={items.imgSrc}
                     alt="gaby"
                     width={300}
-                    height={50}
-                    className="rounded-2xl w-[70%] h-[70%]"
+                    height={100}
+                    className="rounded-2xl w-80 h-80"
                   />
                   <div className="w-345">
-                    <h4 className="sm:text-5xl font-bold sm:pt-6 text-center sm:text-start mt-10 text-white">
+                    <h3 className="sm:text-2xl font-bold sm:pt-6  sm:text-start mt-10 text-white">
                       {items.heading}
-                    </h4>
+                    </h3>
                   </div>
                 </div>
               </div>

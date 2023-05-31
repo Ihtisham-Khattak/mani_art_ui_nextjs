@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className='mx-auto my-10 h-screen  sm:py-10 px-6 lg:px-8 bg-[url("/images/gallery/Gallery8.jpeg")] bg-center bg-cover bg-no-repeat'>
+    <div className='mx-auto my-10 h-screen  sm:py-10 px-6 lg:px-8 bg-[url("/images/gallery/Banner.jpg")] bg-center bg-cover bg-no-repeat'>
       <div className="my-16">
         {/* COLUMN-1 */}
 

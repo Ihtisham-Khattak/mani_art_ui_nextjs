@@ -69,6 +69,7 @@ const Portrait: React.FC = () => {
       description: "Oil on canvas, Price: 5000PKR, 4×4 inches",
       imageUrl: "/images/gallery/Gallery25.jpeg",
     },
+    
   ];
 
   return (

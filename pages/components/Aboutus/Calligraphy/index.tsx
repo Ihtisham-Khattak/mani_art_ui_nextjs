@@ -3,6 +3,19 @@ import Image from "next/image";
 
 const Calligraphy: React.FC = () => {
   const imageData = [
+   
+    {
+      id: 10,
+      title: "ALLAH",
+      description: "Acrylic on canvas, Price: 15000PKR, 10x10 inches",
+      imageUrl: "/images/gallery/Gallery26.jpeg",
+    },
+    {
+      id: 9,
+      title: ".....",
+      description: "Acrylic on canvas, Price: 5000PKR, 10x10 inches",
+      imageUrl: "/images/gallery/Gallery27.jpeg",
+    },
     {
       id: 1,
       title: "Loh-e-Quran",
@@ -62,7 +75,7 @@ const Calligraphy: React.FC = () => {
             alt="images"
             className="w-full h-96 object-contain rounded"
           />
-          <h3 className="flex justify-center">{image.title}</h3>
+          <h3 className="text-2xl mt-2 font-bold flex justify-center">{image.title}</h3>
           <p>{image.description}</p>
         </div>
       ))}

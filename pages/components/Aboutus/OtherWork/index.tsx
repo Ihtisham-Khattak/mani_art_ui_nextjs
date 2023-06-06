@@ -50,7 +50,7 @@ const Calligraphy: React.FC = () => {
             alt="images"
             className="w-full h-96 object-contain rounded"
           />
-          <h3 className="flex justify-center">{image.title}</h3>
+          <h3 className="text-2xl mt-2 font-bold flex justify-center">{image.title}</h3>
           <p>{image.description}</p>
         </div>
       ))}

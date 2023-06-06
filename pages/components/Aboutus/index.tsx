@@ -25,7 +25,7 @@ const Aboutdata: datatype[] = [
     link: "/components/Aboutus/Calligraphy",
   },
   {
-    heading: "Our Works.",
+    heading: "Other Works.",
     imgSrc: "/images/aboutus/imgThree.svg",
     paragraph:
       "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",

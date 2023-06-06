@@ -11,7 +11,7 @@ const Calligraphy: React.FC = () => {
     },
     {
       id: 2,
-      title: "FAISAL MOSQUE",
+      title: "BADSHAHI MOSQUE",
       description: "Oil on canvas, Price: 10000PKR, 4×4 inches",
       imageUrl: "/images/gallery/Gallery20.jpeg",
     },
@@ -23,7 +23,7 @@ const Calligraphy: React.FC = () => {
     },
     {
       id: 4,
-      title: "Illusion",
+      title: "ILLUSION",
       description: "Oil on canvas, Price: 20000PKR, 10×10 inches",
       imageUrl: "/images/gallery/Gallery18.jpeg",
     },

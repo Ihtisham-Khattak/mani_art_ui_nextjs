@@ -5,7 +5,6 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 interface datatype {
   heading: string;
   imgSrc: string;
-  paragraph: string;
   link: string;
 }
 
@@ -13,22 +12,16 @@ const Aboutdata: datatype[] = [
   {
     heading: "Portrait Painting.",
     imgSrc: "/images/aboutus/imgOne.svg",
-    paragraph:
-      "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
     link: "/components/Aboutus/Potrait",
   },
   {
     heading: "Calligraphy.",
     imgSrc: "/images/aboutus/imgTwo.svg",
-    paragraph:
-      "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
     link: "/components/Aboutus/Calligraphy",
   },
   {
     heading: "Other Works.",
     imgSrc: "/images/aboutus/imgThree.svg",
-    paragraph:
-      "Emporibus aliqua doloribus placerat sociosqu ullamcorper imperdiet praesentium sodales",
     link: "/components/Aboutus/OtherWork",
   },
 ];
@@ -47,9 +40,6 @@ const Aboutus = () => {
         <h3 className="text-center text-blue text-lg tracking-widest">
           Gallery
         </h3>
-        {/* <h4 className="text-center text-4xl lg:text-65xl font-bold">
-          Know more about us.
-        </h4> */}
         {/* Adding more cards change the lg:grid-col-2 to 3,4,5 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16 gap-x-16 lg:gap-x-32">
           {Aboutdata.map((item, i) => (
@@ -67,9 +57,6 @@ const Aboutus = () => {
               <h2 className="text-3xl font-semibold  text-white mb-5">
                 {item.heading}
               </h2>
-              {/* <h4 className="text-lg font-normal text-offwhite mb-5">
-                {item.paragraph}
-              </h4> */}
               <Link
                 href={item.link}
                 target="_blank"

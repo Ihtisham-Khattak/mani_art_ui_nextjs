@@ -12,12 +12,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
   font-family: "Urbanist", sans-serif;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 html:not([data-scroll="0"]) .navbar {

@@ -69,6 +69,12 @@ const Portrait: React.FC = () => {
       description: "Oil on canvas, Price: 5000PKR, 4×4 inches",
       imageUrl: "/images/gallery/Gallery25.jpeg",
     },
+    {
+      id: 11,
+      title: "Female in traditional burqa from kpk, Pakistan",
+      description: "Oil on canvas Price: 30000 18 ×24 inches",
+      imageUrl: "/images/gallery/Gallery31.jpeg",
+    },
     
   ];
 

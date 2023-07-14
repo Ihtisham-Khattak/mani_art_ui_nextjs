@@ -4,6 +4,25 @@ import Image from "next/image";
 const Calligraphy: React.FC = () => {
   const imageData = [
     {
+      id: 7,
+      title: "FLORAL ECHOES OF AFFECTION",
+      description: "Oil on canvas, PRICE: 25000PKR, 12×18 inches",
+      imageUrl: "/images/gallery/Gallery28.jpeg",
+    },
+    {
+      id: 8,
+      title: "TRANQUIL REFLECTIONS",
+      description: "Acrylic on canvas, PRICE: 5000PKR, 10×10 inches",
+      imageUrl: "/images/gallery/Gallery29.jpeg",
+    },
+    {
+      id: 9,
+      title: "PRAYERS OF THE SOUL",
+      description: "Oil on canvas, PRICE: 6000PKR, 8×8 inches",
+      imageUrl: "/images/gallery/Gallery30.jpeg",
+    },
+
+    {
       id: 1,
       title: "EROTOMANIA",
       description: "Acrylic on canvas, Price: 10000PKR, 8×8 inches",
@@ -39,24 +58,6 @@ const Calligraphy: React.FC = () => {
       description: "Oil on canvas, PRICE: 50000PKR, 12×18 inches",
       imageUrl: "/images/gallery/Gallery16.jpeg",
     },
-    {
-      id: 7,
-      title: "SMOKER",
-      description: "Oil on canvas, PRICE: 25000PKR, 12×18 inches",
-      imageUrl: "/images/gallery/Gallery28.jpeg",
-    },
-    {
-      id: 8,
-      title: "TRANQUIL REFLECTIONS",
-      description: "Acrylic on canvas, PRICE: 5000PKR, 10×10 inches",
-      imageUrl: "/images/gallery/Gallery29.jpeg",
-    },
-    {
-      id: 9,
-      title: "PRAYERS OF THE SOUL",
-      description: "Oil on canvas, PRICE: 6000PKR, 8×8 inches",
-      imageUrl: "/images/gallery/Gallery30.jpeg",
-    },
   ];
 
   return (
@@ -68,7 +69,9 @@ const Calligraphy: React.FC = () => {
             alt="images"
             className="w-full h-96 object-contain rounded"
           />
-          <h3 className="text-2xl mt-2 font-bold flex justify-center uppercase">{image.title}</h3>
+          <h3 className="text-2xl mt-2 font-bold flex justify-center uppercase">
+            {image.title}
+          </h3>
           <p>{image.description}</p>
         </div>
       ))}

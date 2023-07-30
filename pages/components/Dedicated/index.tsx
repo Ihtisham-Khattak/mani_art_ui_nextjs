@@ -46,9 +46,9 @@ const Dedicated = () => {
               work is oil paint but also use different medium ( Acrylic,
               charcoal).
             </p>
-            <p className="text-2xl font-semibold mt-12 lg:ml-32 preline text-center lg:text-start">
-              {" "}
+            <p className="text-3xl text-center font-semibold mt-12 lg:ml-32 sm:text-center lg:text-start">
               Mani Art Studio, CEO
+              <hr className="w-[18rem]"  />
             </p>
           </div>
         </div>
